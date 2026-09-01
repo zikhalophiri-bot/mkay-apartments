@@ -1,0 +1,15 @@
+{
+  "title": "Property Gallery",
+  "subtitle": "Explore our living spaces, bedrooms, kitchens, and facilities",
+  "images": [
+    { "title": "Victoria Falls Tour", "image": "images/services/victoria-falls-walk.jfif", "category": "experiences", "active": true },
+    { "title": "Victoria Falls Aerial View", "image": "images/services/victoria-falls-aerial.jfif", "category": "experiences", "active": true },
+    { "title": "Victoria Falls Viewpoint", "image": "images/services/victoria-falls-view.jfif", "category": "experiences", "active": true },
+    { "title": "Bungee Jumping", "image": "images/services/bungee-jump.jfif", "category": "experiences", "active": true },
+    { "title": "Mukuni Village Tour", "image": "images/services/mukuni-village.jfif", "category": "experiences", "active": true },
+    { "title": "Rhino Walk", "image": "images/services/rhino-walk.jfif", "category": "experiences", "active": true },
+    { "title": "Safari Game Drive", "image": "images/services/safari-drive.jfif", "category": "experiences", "active": true },
+    { "title": "Sunset Cruise", "image": "images/services/sunset-cruise.jfif", "category": "experiences", "active": true },
+    { "title": "Cultural Entertainment", "image": "images/services/cultural-entertainment.jpeg", "category": "culture", "active": true }
+  ]
+}

@@ -1,0 +1,247 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: home
+    label: Home
+    files:
+      - name: home
+        label: Home page
+        file: content/home.json
+        fields:
+          - { label: Hero title, name: hero_title, widget: string }
+          - { label: Hero tagline, name: hero_tagline, widget: string }
+          - { label: Hero subtitle, name: hero_subtitle, widget: string }
+          - { label: Welcome heading, name: welcome_title, widget: string }
+          - { label: Welcome text, name: welcome_text, widget: text }
+          - { label: Why choose us heading, name: why_choose_title, widget: string }
+          - { label: Why choose us subtitle, name: why_choose_subtitle, widget: string }
+          - { label: Services heading, name: services_title, widget: string }
+          - { label: Services subtitle, name: services_subtitle, widget: string }
+          - { label: Apartment introduction, name: apartments_intro, widget: text }
+          - { label: Gallery preview heading, name: gallery_preview_title, widget: string }
+          - { label: Gallery preview subtitle, name: gallery_preview_subtitle, widget: string }
+          - { label: Location heading, name: location_title, widget: string }
+          - { label: Location text, name: location_subtitle, widget: string }
+          - label: Why choose us items
+            name: why_choose
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Font Awesome icon class, name: icon, widget: string, hint: "Example: fa-shield-halved" }
+
+  - name: about
+    label: About Us
+    files:
+      - name: about
+        label: About page
+        file: content/about.json
+        fields:
+          - { label: Heading, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Vision heading, name: vision_title, widget: string }
+          - { label: Vision text, name: vision_text, widget: text }
+          - { label: Mission heading, name: mission_title, widget: string }
+          - { label: Mission text, name: mission_text, widget: text }
+
+  - name: apartments
+    label: Apartments
+    files:
+      - name: apartments
+        label: Apartment listings
+        file: content/apartments.json
+        fields:
+          - { label: Section heading, name: title, widget: string }
+          - { label: Section introduction, name: intro, widget: text }
+          - label: Apartments
+            name: items
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Apartment name, name: name, widget: string }
+              - { label: Apartment type, name: type, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Price display text, name: price, widget: string, required: false, hint: "Example: From K1,200 per night" }
+              - { label: Bedrooms, name: bedrooms, widget: string }
+              - { label: Bathrooms, name: bathrooms, widget: string }
+              - { label: Guest capacity, name: guest_capacity, widget: string }
+              - { label: Featured image, name: featured_image, widget: image, required: false }
+              - label: Gallery images
+                name: gallery_images
+                widget: list
+                required: false
+                field: { label: Image, name: image, widget: image }
+              - label: Amenities
+                name: amenities
+                widget: list
+                field: { label: Amenity, name: amenity, widget: string }
+              - { label: Featured apartment, name: featured, widget: boolean, default: false }
+              - { label: Active on website, name: active, widget: boolean, default: true }
+
+  - name: services
+    label: Services
+    files:
+      - name: services
+        label: Services page
+        file: content/services.json
+        fields:
+          - { label: Heading, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - label: Service categories
+            name: categories
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Category name, name: name, widget: string }
+              - { label: Active category, name: active, widget: boolean, default: true }
+              - label: Services
+                name: services
+                widget: list
+                summary: "{{fields.name}}"
+                fields:
+                  - { label: Service name, name: name, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Image, name: image, widget: image, required: false }
+                  - label: Included activities or features
+                    name: features
+                    widget: list
+                    field: { label: Feature, name: feature, widget: string }
+                  - { label: Optional price display text, name: price, widget: string, required: false }
+                  - { label: CTA button text, name: cta_text, widget: string }
+                  - { label: Active on website, name: active, widget: boolean, default: true }
+
+  - name: amenities
+    label: Amenities
+    files:
+      - name: amenities
+        label: Amenities section
+        file: content/amenities.json
+        fields:
+          - { label: Heading, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - label: Amenities
+            name: items
+            widget: list
+            fields:
+              - { label: Amenity name, name: title, widget: string }
+              - { label: Font Awesome icon class, name: icon, widget: string, hint: "Example: fa-wifi" }
+              - { label: Active on website, name: active, widget: boolean, default: true }
+
+  - name: gallery
+    label: Gallery
+    files:
+      - name: gallery
+        label: Gallery images
+        file: content/gallery.json
+        fields:
+          - { label: Heading, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - label: Images
+            name: images
+            widget: list
+            summary: "{{fields.title}} — {{fields.category}}"
+            fields:
+              - { label: Image title, name: title, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Category, name: category, widget: select, options: [apartments, bedrooms, kitchen, facilities, experiences, culture, other] }
+              - { label: Active on website, name: active, widget: boolean, default: true }
+
+  - name: video_tours
+    label: Video Tours
+    files:
+      - name: video_tours
+        label: Video tours section
+        file: content/video-tours.json
+        fields:
+          - { label: Heading, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - label: Video tours
+            name: items
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Video embed URL, name: url, widget: string, hint: "Use a YouTube or Vimeo embed URL" }
+              - { label: Description, name: description, widget: text, required: false }
+              - { label: Active on website, name: active, widget: boolean, default: true }
+
+  - name: testimonials
+    label: Testimonials
+    files:
+      - name: testimonials
+        label: Guest testimonials
+        file: content/testimonials.json
+        fields:
+          - { label: Heading, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - label: Testimonials
+            name: items
+            widget: list
+            fields:
+              - { label: Guest name, name: name, widget: string }
+              - { label: Guest location, name: location, widget: string, required: false }
+              - { label: Testimonial, name: quote, widget: text }
+              - { label: Rating, name: rating, widget: number, value_type: int, min: 1, max: 5, default: 5 }
+              - { label: Active on website, name: active, widget: boolean, default: true }
+
+  - name: faqs
+    label: FAQs
+    files:
+      - name: faqs
+        label: Frequently asked questions
+        file: content/faqs.json
+        fields:
+          - { label: Heading, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - label: Questions
+            name: items
+            widget: list
+            fields:
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: text }
+              - { label: Active on website, name: active, widget: boolean, default: true }
+
+  - name: contact
+    label: Contact Information
+    files:
+      - name: contact
+        label: Contact details
+        file: content/contact.json
+        fields:
+          - { label: Heading, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Phone, name: phone, widget: string }
+          - { label: WhatsApp number, name: whatsapp_number, widget: string, hint: "Country code and digits only" }
+          - { label: Email, name: email, widget: string }
+          - { label: Address, name: address, widget: text }
+          - { label: Business hours, name: business_hours, widget: text }
+
+  - name: site_settings
+    label: Site Settings
+    files:
+      - name: site_settings
+        label: Global website settings
+        file: content/site-settings.json
+        fields:
+          - { label: Browser title, name: browser_title, widget: string }
+          - { label: Business name, name: site_name, widget: string }
+          - { label: Copyright year, name: copyright_year, widget: string }
+          - { label: Footer description, name: footer_description, widget: text }
+          - { label: Header call-to-action text, name: header_cta_text, widget: string }
+          - { label: Footer links heading, name: footer_links_title, widget: string }
+          - { label: Footer contact heading, name: footer_contact_title, widget: string }
+          - label: Navigation links
+            name: navigation
+            widget: list
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Page target, name: target, widget: select, options: [home, about, services, gallery, booking, contact] }
+              - { label: Show link, name: active, widget: boolean, default: true }
+          - { label: Booking heading, name: booking_title, widget: string }
+          - { label: Booking subtitle, name: booking_subtitle, widget: string }

@@ -1,0 +1,52 @@
+{
+  "browser_title": "MKAY Apartments | Fully Furnished Apartments in Livingstone, Zambia",
+  "site_name": "MKAY APARTMENTS",
+  "tagline": "Your Home Away From Home",
+  "hero_subtitle": "Fully Furnished Apartments in Livingstone",
+  "welcome_text": "MKAY Apartments offers fully furnished accommodation designed for comfort, convenience, and peace of mind. Whether you are visiting Livingstone for business, tourism, or an extended stay, we provide a relaxing environment that feels just like home.",
+  "about_text": "MKAY Apartments is committed to providing a comfortable and secure home-away-from-home experience in Livingstone.",
+  "home_services_title": "Our Services",
+  "services_title": "Services at MKAY Apartments",
+  "additional_services_title": "Additional Services",
+  "additional_services_subtitle": "Transport, tourism, leisure and cultural experiences arranged for a seamless Livingstone visit.",
+  "gallery_title": "Property Gallery",
+  "booking_title": "Booking Inquiry",
+  "contact_title": "Get In Touch",
+  "phone": "+260 974 472 675",
+  "whatsapp_number": "260764336304",
+  "email": "mkayapartments@gmail.com",
+  "address": "Mujala Rd, Dambwa North Ext, Livingstone",
+  "copyright_year": "2026",
+  "apartments": [
+    { "title": "One Bedroom Apartment", "description": "Comfortable, fully furnished accommodation for solo travellers and couples." },
+    { "title": "Two Bedroom Apartment", "description": "Ideal for families, small groups and business travellers who need extra space." },
+    { "title": "Executive Apartment", "description": "Premium accommodation with luxury amenities, an executive workspace and master ensuite." }
+  ],
+  "service_groups": [
+    { "title": "Transport Services", "services": [
+      { "title": "Airport Transfers", "image": "", "activities": ["Airport Pickup", "Airport Drop-Off", "Meet & Greet Service"], "cta": "Arrange a Transfer" },
+      { "title": "Car Hire", "image": "", "activities": ["Self-Drive Vehicles", "Chauffeur-Driven Vehicles", "Executive Vehicle Hire"], "cta": "Enquire Now" },
+      { "title": "Shuttle Services", "image": "", "activities": ["Town Shuttle", "Hotel Shuttle", "Group Transfers"], "cta": "Book a Shuttle" },
+      { "title": "Cross-Border Transfers", "image": "", "activities": ["Livingstone – Kazungula", "Livingstone – Botswana", "Livingstone – Namibia"], "cta": "Plan Your Transfer" }
+    ] },
+    { "title": "Tourism, Leisure & Culture", "services": [
+      { "title": "Guided Tours", "image": "images/services/victoria-falls-walk.jfif", "activities": ["Victoria Falls Tour", "Livingstone City Tour", "Mukuni Village Tour", "Museum Tour"], "cta": "Book a Tour" },
+      { "title": "Adventure Activities", "image": "images/services/bungee-jump.jfif", "activities": ["Bungee Jumping Bookings", "White Water Rafting", "Gorge Swing", "Zip Lining"], "cta": "Choose an Adventure" },
+      { "title": "Wildlife Experiences", "image": "images/services/rhino-walk.jfif", "activities": ["Rhino Walk", "Safari Game Drives", "Elephant Encounters", "Bird Watching"], "cta": "Explore Wildlife" },
+      { "title": "Water Activities", "image": "images/services/sunset-cruise.jfif", "activities": ["Sunset Cruise", "Canoeing", "Fishing Trips", "Boat Cruises"], "cta": "Plan a Cruise" },
+      { "title": "Cultural Entertainment", "image": "images/services/cultural-entertainment.jpeg", "activities": ["Traditional Dance Performances", "Drama & Theatre Performances", "Cultural Storytelling Sessions", "Cultural Exhibitions & Art Displays", "Traditional Music Performances", "Cultural Festival Performances"], "cta": "Request Entertainment" },
+      { "title": "Corporate & Group Activities", "image": "", "activities": ["Team Building Activities", "Corporate Retreat Activities", "Group Experience Planning"], "cta": "Plan Your Group Event" }
+    ] }
+  ],
+  "experience_gallery": [
+    { "title": "Victoria Falls Tour", "image": "images/services/victoria-falls-walk.jfif" },
+    { "title": "Victoria Falls Aerial View", "image": "images/services/victoria-falls-aerial.jfif" },
+    { "title": "Victoria Falls Viewpoint", "image": "images/services/victoria-falls-view.jfif" },
+    { "title": "Bungee Jumping", "image": "images/services/bungee-jump.jfif" },
+    { "title": "Mukuni Village Tour", "image": "images/services/mukuni-village.jfif" },
+    { "title": "Rhino Walk", "image": "images/services/rhino-walk.jfif" },
+    { "title": "Safari Game Drive", "image": "images/services/safari-drive.jfif" },
+    { "title": "Sunset Cruise", "image": "images/services/sunset-cruise.jfif" },
+    { "title": "Cultural Entertainment", "image": "images/services/cultural-entertainment.jpeg" }
+  ]
+}

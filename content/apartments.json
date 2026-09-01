@@ -1,0 +1,9 @@
+{
+  "title": "Apartments",
+  "intro": "Choose from our selection of premium, fully furnished apartments for short or extended stays.",
+  "items": [
+    { "name": "One Bedroom Apartment", "type": "One Bedroom", "description": "Comfortable, fully furnished accommodation for solo travellers and couples.", "price": "", "bedrooms": "1", "bathrooms": "1", "guest_capacity": "2 Guests", "featured_image": "images/hero-background.jpeg", "gallery_images": [], "amenities": ["Fully furnished", "Private bathroom", "Kitchen facilities"], "featured": true, "active": true },
+    { "name": "Two Bedroom Apartment", "type": "Two Bedroom", "description": "Ideal for families, small groups and business travellers who need extra space.", "price": "", "bedrooms": "2", "bathrooms": "1", "guest_capacity": "4 Guests", "featured_image": "images/hero-background.jpeg", "gallery_images": [], "amenities": ["Fully furnished", "Separate bedrooms", "Kitchen facilities"], "featured": true, "active": true },
+    { "name": "Executive Apartment", "type": "Executive Suite", "description": "Premium accommodation with luxury amenities, an executive workspace and master ensuite.", "price": "", "bedrooms": "2", "bathrooms": "2", "guest_capacity": "4 Guests", "featured_image": "images/hero-background.jpeg", "gallery_images": [], "amenities": ["Executive workspace", "Master ensuite", "Luxury furnishings"], "featured": true, "active": true }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "hero_title": "MKAY APARTMENTS",
+  "hero_tagline": "Your Home Away From Home",
+  "hero_subtitle": "Fully Furnished Apartments in Livingstone",
+  "welcome_title": "Welcome to MKAY Apartments",
+  "welcome_text": "MKAY Apartments offers fully furnished accommodation designed for comfort, convenience, and peace of mind. Whether you are visiting Livingstone for business, tourism, or an extended stay, we provide a relaxing environment that feels just like home.",
+  "why_choose_title": "Why Choose Us?",
+  "why_choose_subtitle": "Experience unmatched hospitality and top-tier facilities tailored to your lifestyle",
+  "services_title": "Our Services",
+  "services_subtitle": "From comfortable stays to memorable Livingstone experiences, we make every journey seamless",
+  "apartments_intro": "Choose from our selection of premium, fully furnished apartments for short or extended stays.",
+  "gallery_preview_title": "Gallery Preview",
+  "gallery_preview_subtitle": "Take a visual tour through our pristine apartments and facilities",
+  "location_title": "Our Location",
+  "location_subtitle": "Mujala Rd, Dambwa North Ext, Livingstone",
+  "why_choose": [
+    { "title": "Fully Furnished", "description": "Thoughtfully equipped spaces for comfortable stays.", "icon": "fa-couch" },
+    { "title": "Secure & Private", "description": "A safe, peaceful environment in Livingstone.", "icon": "fa-shield-halved" },
+    { "title": "Great Location", "description": "Conveniently located for town, tours and business.", "icon": "fa-location-dot" }
+  ]
+}

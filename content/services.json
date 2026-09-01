@@ -1,0 +1,20 @@
+{
+  "title": "Services at MKAY Apartments",
+  "subtitle": "Everything you need for a comfortable stay and an unforgettable Livingstone adventure",
+  "categories": [
+    { "name": "Transport Services", "active": true, "services": [
+      { "name": "Airport Transfers", "description": "Reliable arrival and departure transport.", "image": "", "features": ["Airport Pickup", "Airport Drop-Off", "Meet & Greet Service"], "price": "", "cta_text": "Arrange a Transfer", "active": true },
+      { "name": "Car Hire", "description": "Flexible vehicles for local travel and excursions.", "image": "", "features": ["Self-Drive Vehicles", "Chauffeur-Driven Vehicles", "Executive Vehicle Hire"], "price": "", "cta_text": "Enquire Now", "active": true },
+      { "name": "Shuttle Services", "description": "Convenient local and group transportation.", "image": "", "features": ["Town Shuttle", "Hotel Shuttle", "Group Transfers"], "price": "", "cta_text": "Book a Shuttle", "active": true },
+      { "name": "Cross-Border Transfers", "description": "Travel arrangements across nearby borders.", "image": "", "features": ["Livingstone – Kazungula", "Livingstone – Botswana", "Livingstone – Namibia"], "price": "", "cta_text": "Plan Your Transfer", "active": true }
+    ] },
+    { "name": "Tourism, Leisure & Culture", "active": true, "services": [
+      { "name": "Guided Tours", "description": "Discover Livingstone with a local guide.", "image": "images/services/victoria-falls-walk.jfif", "features": ["Victoria Falls Tour", "Livingstone City Tour", "Mukuni Village Tour", "Museum Tour"], "price": "", "cta_text": "Book a Tour", "active": true },
+      { "name": "Adventure Activities", "description": "Adrenaline experiences arranged for you.", "image": "images/services/bungee-jump.jfif", "features": ["Bungee Jumping Bookings", "White Water Rafting", "Gorge Swing", "Zip Lining"], "price": "", "cta_text": "Choose an Adventure", "active": true },
+      { "name": "Wildlife Experiences", "description": "Memorable wildlife encounters and game drives.", "image": "images/services/rhino-walk.jfif", "features": ["Rhino Walk", "Safari Game Drives", "Elephant Encounters", "Bird Watching"], "price": "", "cta_text": "Explore Wildlife", "active": true },
+      { "name": "Water Activities", "description": "Relaxing and adventurous water experiences.", "image": "images/services/sunset-cruise.jfif", "features": ["Sunset Cruise", "Canoeing", "Fishing Trips", "Boat Cruises"], "price": "", "cta_text": "Plan a Cruise", "active": true },
+      { "name": "Cultural Entertainment", "description": "Livingstone cultural performances for groups and events.", "image": "images/services/cultural-entertainment.jpeg", "features": ["Traditional Dance Performances", "Drama & Theatre Performances", "Cultural Storytelling Sessions", "Cultural Exhibitions & Art Displays", "Traditional Music Performances", "Cultural Festival Performances"], "price": "", "cta_text": "Request Entertainment", "active": true },
+      { "name": "Corporate & Group Activities", "description": "Tailored experiences for teams and groups.", "image": "", "features": ["Team Building Activities", "Corporate Retreat Activities", "Group Experience Planning"], "price": "", "cta_text": "Plan Your Group Event", "active": true }
+    ] }
+  ]
+}

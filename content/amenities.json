@@ -1,0 +1,12 @@
+{
+  "title": "Amenities",
+  "subtitle": "Everything you need for a seamless and pleasant stay",
+  "items": [
+    { "title": "Fully Furnished", "icon": "fa-couch", "active": true },
+    { "title": "Free Wi-Fi", "icon": "fa-wifi", "active": true },
+    { "title": "Secure Parking", "icon": "fa-square-parking", "active": true },
+    { "title": "Air Conditioning", "icon": "fa-snowflake", "active": true },
+    { "title": "Kitchen Facilities", "icon": "fa-kitchen-set", "active": true },
+    { "title": "24-Hour Security", "icon": "fa-shield-halved", "active": true }
+  ]
+}

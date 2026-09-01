@@ -1,0 +1,19 @@
+{
+  "browser_title": "MKAY Apartments | Fully Furnished Apartments in Livingstone, Zambia",
+  "site_name": "MKAY APARTMENTS",
+  "copyright_year": "2026",
+  "footer_description": "Comfortable, secure and fully furnished apartments in Livingstone, Zambia.",
+  "header_cta_text": "Book Now",
+  "footer_links_title": "Quick Links",
+  "footer_contact_title": "Contact Info",
+  "navigation": [
+    { "label": "Home", "target": "home", "active": true },
+    { "label": "About Us", "target": "about", "active": true },
+    { "label": "Services", "target": "services", "active": true },
+    { "label": "Gallery", "target": "gallery", "active": true },
+    { "label": "Booking", "target": "booking", "active": true },
+    { "label": "Contact", "target": "contact", "active": true }
+  ],
+  "booking_title": "Booking Inquiry",
+  "booking_subtitle": "Fill out the form below to check availability and reserve your stay"
+}
